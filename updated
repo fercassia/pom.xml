@@ -1,7 +1,8 @@
 # pom.xml
 https://mvnrepository.com/
 
-# pom.xml for BDD tests with java on eclipse
+# pom.xml for BDD tests with java on eclipse;
+# Cucumber version it's only compatible with the 2021.03 (4.19) Eclipse version
 
 	<properties>
 

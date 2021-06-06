@@ -4,7 +4,7 @@ https://mvnrepository.com/
 # pom.xml for BDD tests with java on eclipse;
 # Cucumber version it's only compatible with the 2021-03(4.19) Eclipse version
 
-	<properties>
+		<properties>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -76,6 +76,14 @@ https://mvnrepository.com/
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.8.0-M1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
 			<version>5.8.0-M1</version>
 			<scope>test</scope>
 		</dependency>

@@ -19,19 +19,19 @@ https://mvnrepository.com/
 			<version>6.10.4</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>6.10.4</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>6.10.4</version>
 			<scope>test</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-java8</artifactId>
-			<version>6.10.4</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
@@ -47,6 +47,13 @@ https://mvnrepository.com/
 			<artifactId>cucumber-jvm</artifactId>
 			<version>6.10.4</version>
 			<type>pom</type>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>6.10.4</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
